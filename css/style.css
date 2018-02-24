@@ -74,19 +74,31 @@ hr {
 }
 
 .about-wrap {
-  background-color: rgba(0, 20, 100, 0.5);
+  background-color: rgba(0, 20, 100, 1);
   border: 1px solid white;
+  border-collapse: collapse;
   padding: 20px 20px;
   color: white;
+  flex-basis: 50%;
 }
 
 .contact-wrap {
-  background-color: rgba(0, 20, 100, 0.5);
+  background-color: rgba(110, 150, 110, 1);
   border: 1px solid white;
+  border-collapse: collapse;
   padding: 20px 20px;
   color: white;
+  flex-basis: 50%;
 }
 
 .contact-wrap a {
   color: white;
+}
+
+@media (min-width: 768px) {
+  .flex-wrap {
+    display: flex;
+
+  }
+
 }
